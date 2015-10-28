@@ -1,0 +1,147 @@
+/*******************
+   Jamii/SharedFile 
+*******************/
+#file-links {
+	/*border-bottom: 2px solid #FFCCFF;*/
+	padding: 0px;
+}
+.file-link {
+	list-style: none;
+	border-bottom: 2px solid #FFCCFF;
+	margin-bottom: 2px;
+	padding-bottom: 2px;
+	position: relative;
+}
+#sharedfile-container {
+	max-width: 1200px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	/*border: 1px solid black;*/
+}
+.sharedfile-path{
+    color: blue;
+    cursor: pointer;
+}
+#sharedfile-addfile-btn,
+#sharedfile-addfolder-btn{
+    margin-right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#sharedfile-container-header {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+}
+#dropbox-upload {
+	margin-bottom: 10px;
+}
+.file-remove-btn{
+	position: absolute;
+	right: 20px;
+	line-height: 32px;
+	color: #dddddd;
+}
+.file-remove-btn:hover{
+	color: #D00000;
+	cursor: pointer;
+}
+.sharedfile-column {
+    cursor:pointer;
+}
+.sharedfile-column .glyphicon {
+    z-index: -1;
+    position: relative;
+    top: 2px;
+}
+
+.clear{
+    clear:both;
+}
+
+/* FileApp CSS: React Version */
+.FileApp {
+    width:80%;
+    min-width:800px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.FileToolbar {
+    display:block;
+    margin-top:10px;
+    margin-bottom:10px;
+    height:35px;
+}
+.FileToolButtons {
+    float:left;
+}
+.FileToolButtons button {
+    margin-right:5px;
+}
+.FileSearchBar {
+    float:right;
+    margin-top:4px;
+    width:250px;
+}
+.FileSearchBar input, .FileSearchBar input:focus {
+    width:100%;
+    outline:none !important;
+    border-color:#cccccc;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.FileNavigation {
+    border:2px solid #000000;
+    border-radius:10px;
+/*    height:20px;*/
+    font-size:20px;
+    padding-left:5px;
+}
+.sharedfile-path {
+    margin-left:5px;
+    margin-right:5px;
+}
+.sharedfile-path:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.sharedfile-path-split {
+    position: relative;
+    top: -2px;
+}
+.FileTable {
+    position: relative;
+}
+.FileHeader {}
+.FileList {}
+.FileItem td {
+    vertical-align: middle !important;
+    position: relative;
+}
+
+.file-name {
+    width:500px;
+}
+.file-name:hover {
+    text-decoration: underline;
+    cursor:pointer;
+}
+.file-update-datetime {
+	
+}
+.file-icon {
+    position: relative;
+	width: 35px;
+}
+.file-icon img {
+    width:32px;
+    height: 32px;
+}
+.file-uploader {
+	
+}
+.file-remove-icon {
+    display: table-cell;
+    width:35px;
+}
